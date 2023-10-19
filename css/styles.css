@@ -1,0 +1,77 @@
+.Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #333333;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.Navigation{
+    font-family: sans-serif;
+    color: white;
+    background-color: #d09392;
+    
+}
+
+#NavBar{
+    text-align: left;
+    padding: 10px;
+}
+
+.list{
+    margin: 0px;
+    display: inline;
+    padding-right: 30px;
+    padding-left: 9px;
+}
+
+
+.Menu{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 110%;
+    font-family: sans-serif;
+    line-height: normal;
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+}
+
+/* .image{
+    background-image: url("food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 33.33%;
+    float: right; 
+    background-color: brown;
+    margin-left: 200px;
+} */
+
+.Image{
+    height: 570px;
+    width: 75%;
+    float: right;
+}
+
+.CopyRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    font-family: sans-serif;
+    padding: 0px;
+    
+}
+
+*{
+    margin: 0px;
+}
